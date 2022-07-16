@@ -13,6 +13,6 @@ module Types
     def test_field
       "Hello World!"
     end
-    field :fetch_notes, resolver: Queries::FetchNotes
+    field :fetch_tasks, resolver: Queries::FetchTasks
   end
 end

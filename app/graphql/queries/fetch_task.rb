@@ -1,10 +1,10 @@
 module Queries
-    class FetchNotes < Queries::BaseQuery
+    class FetchTasks < Queries::BaseQuery
   
       type [Types::TaskType], null: false
   
       def resolve
-        Note.all.order(created_at: :desc)
+        Task.all.order(created_at: :desc)
       end
     end
 end
