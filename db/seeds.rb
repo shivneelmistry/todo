@@ -7,5 +7,5 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 5.times do |i|
-    Task.create(title: "Note #{i + 1}", body: 'Lorem ipsum saves lives')
+    Task.create(title: "Task #{i + 1}", body: 'Lorem ipsum saves lives')
 end

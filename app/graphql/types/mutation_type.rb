@@ -6,5 +6,8 @@ module Types
     def test_field
       "Hello World"
     end
+
+    field :add_task, mutation: Mutations::AddTask
+
   end
 end

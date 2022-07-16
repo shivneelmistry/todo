@@ -1,9 +1,9 @@
 module Types
     module Input
-      class NoteInputType < Types::BaseInputObject
+      class TaskInputType < Types::BaseInputObject
         argument :title, String, required: true
         argument :body, String, required: true
-        argument :completed, Boolean, default: false
+        argument :completed, Boolean, required: false, default_value: false
       end
     end
 end
