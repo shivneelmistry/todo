@@ -14,5 +14,6 @@ module Types
       "Hello World!"
     end
     field :fetch_tasks, resolver: Queries::FetchTasks
+    field :fetch_task, resolver: Queries::FetchTask
   end
 end
